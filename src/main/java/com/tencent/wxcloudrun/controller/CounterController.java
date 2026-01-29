@@ -45,7 +45,7 @@ public class CounterController {
         if (counter.isPresent()) {
             count = counter.get().getCount();
         }
-        count = count + 100;
+        count = count + 1000;
         return ApiResponse.ok(count);
     }
 
